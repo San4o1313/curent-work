@@ -1,1 +1,56 @@
-!
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    body {
+      background-color: #777;
+      text-align: center;
+    }
+    hr {
+      color: #ddd;
+    }
+    section {
+      display: flex;
+      justify-content: space-around;
+    }
+    section .flex-item {
+      width: 300px;
+      height: 70vh;
+    }
+    .color {
+      height: 100%;      
+    }
+    .red {
+      background-color: red;
+    }
+    .green {
+      background-color: green;
+    }
+    .yellow {
+      background-color: yellow;
+    }
+  </style>
+</head>
+<body>
+  <a href="#">Colour blocks on single-colour pages are links to return to this page</a>
+  <hr>
+  <section>
+    <div class="flex-item">
+      <h2>red</h2>
+      <div class="color red"></div>
+    </div>
+    <div class="flex-item">
+      <h2>green</h2>
+      <div class="color green"></div>
+    </div>
+    <div class="flex-item">
+      <h2>yellow</h2>
+      <div class="color yellow"></div>
+    </div>
+  </section>
+</body>
+</html>
